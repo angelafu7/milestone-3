@@ -1,0 +1,15 @@
+---
+title: "Milestone 3"
+author: "Angela Fu"
+date: "10/4/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(janitor)
+```
+
+In my project, I intend to analyze campaign contributions across Alabama voters for both federal and state-level elections during the 2017-2018 campaign period. I plan to get data for federal elections from the FEC, and I will be getting data for state elections from FollowTheMoney.org. I will be able to get FEC data directly from their website. Because I am requesting more than 1,000 pieces of data from FollowTheMoney, I need to put in a special request to explain that I am using the data for an academic project. Once they receive my request, I should be able to get a copy of the data.
+
+Once I get the data, I will need to clean it by eliminating contributions to PACs and non-candidates. Then I plan to  analyze how much money is given to the average federal candidate vs a local candidate and how campaign contributions differ by zip code.  
